@@ -42,6 +42,20 @@ namespace Warehouse
                 countUnknown++;
             }
         }
+        public void ShowChemistry()
+        {
+            Console.WriteLine("Chemistry quantity: {0}, chemistry entries: {1}", quantityChemistry, countChemistryEntry);
+        }
+        public void ShowPaper()
+        {
+            Console.WriteLine("Paper quantity: {0}, paper entries: {1}", quantityPaper, countPaperEntry);
+        }
+        public void ShowSoap()
+        {
+            Console.WriteLine("Soap quantity: {0}, soap entries: {1}", quantitySoap, countSoapEntry);
+        }
+
+
 
     }
 }
